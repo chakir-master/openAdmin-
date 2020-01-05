@@ -19,6 +19,12 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 @section('contenu')
     <div class="for-body">
         <div class="container">
+            <!--research bar-->
+            <div class="row">
+                <div class="col-lg-12">
+                    @include('includes.search')
+                </div>
+            </div>
 
             <!--Welcome message-->
             <div class="row">
@@ -179,14 +185,7 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <!-- <h4 class="box-title">Chandler</h4> -->
-                            <div class="calender-cont widget-calender">
-                                <div id="calendar"></div>
-                            </div>
-                        </div>
-                    </div><!-- /.card -->
+
                 </div>
             </div>
 
