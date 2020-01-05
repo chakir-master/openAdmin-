@@ -48,3 +48,13 @@
 {
     margin-bottom: 10%;
 }
+
+.state-resComm i
+{
+    font-size: 18px;
+}
+
+.state-resComm i:hover
+{
+    color:#2790e6;
+}
